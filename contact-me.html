@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+      h1 {
+        font-family: inter, sans-serif;
+        font-size: xx-large;
+      }
+      p {
+        font-family: Inter, sans-serif;
+      }
+      form {
+        font-family: Inter, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Contact Details</h1>
+    <p>My address here</p>
+    <p>Phone: 888.999.9000</p>
+    <p>test@test.com</p>
+    <form
+      action="mailto:jason@lcclgroup.net"
+      method="post"
+      enctype="text/plain"
+    >
+      <label>Your Name:</label>
+      <input type="text" name="your_name" />
+      <br />
+      <label>Your email: </label>
+      <input type="email" name="email" id="" />
+      <br />
+      <label>Your message:</label><br />
+      <textarea name="your_message" id="" cols="30" rows="10"></textarea>
+      <br />
+      <label for="check">Do you want to sign up for the email?</label>
+      <input
+        type="checkbox"
+        name="email_signup"
+        checked
+        id="check"
+        value="check"
+      />
+
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
